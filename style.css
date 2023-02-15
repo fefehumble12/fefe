@@ -1,0 +1,132 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	
+}
+body
+{
+	background-image: url(background.jpg);
+	background-size: cover; 
+	box-sizing: border-bx;
+	font-family: sans-serif;
+}
+
+  .menu-bar
+{
+	background: );
+	text-align: center;
+}
+	.menu-bar ul
+	{
+		display: inline-flex;
+		list-style: none;
+		color: #fff; 
+	}
+		.menu-bar ul li
+		{
+			width: 100px;
+			margin: 20px;
+			paddind: 10px;
+		}
+		.menu-bar ul li a
+		{
+			text-decoration: none;
+			color: #fff;
+		}
+	.active,.menu-bar ul li:hover
+	{
+		background: #71797E;
+		border-radius: 10px
+	}
+	.sab-manu-1
+	{
+		display: none;
+	}
+	.menu-bar ul li:hover .sab-manu-1
+	{
+		display: block;
+		position: absolute;
+		background: 
+		margin-top: 10px;
+		margin-left: -10px;
+	}
+	.menu-bar ul li:hover .sab-manu-1 ul
+	{
+		display: block;
+		margin: 3px;
+	}
+	.menu-bar ul li:hover .sab-manu-1 ul li
+	{
+		width: 100px;
+		height: 10px;
+		border-bottom: 0px dotted #fff;
+		border-radius: 0;
+		text-align: left;	
+	}
+	.menu-bar ul li:hover .sab-manu-1 ul li: last-child
+	{
+		border-bottom: none;
+	}
+	h1{
+		position: relative;
+		font: 50em;
+		font-size: 60;
+		font-family: ar julian;
+		Letter-spacing: 10px;
+		color: #000;
+		text-transform
+		width: 150;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+		line-height: 1em;
+		outline: none;
+		animation: animate 3s linear infinite;
+	}
+	@keyframes animate{
+		0%{
+			color: #000;
+			text-shadow: none;
+		}
+	 100%{
+			color: #71797E;
+			text-shadow: 0 0 0 10px #03bcf4,
+			            0 0 0 20px #03bcf4,
+						0 0 0 40px #03bcf4,
+						0 0 0 80px #03bcf4,
+						0 0 0 160px #03bcf4;
+						
+	 
+	 }
+	  .menu-bar-2
+{
+	text-align: center;
+}
+	.menu-bar-2 ul
+	{
+		display: inline-flex;
+		list-style: none;
+	}
+		.menu-bar-2 ul li
+		{
+			width: 100px;
+			margin: 20px;
+			paddind: 10px;
+		}
+		.menu-bar-2 ul li a
+		{
+			text-decoration: none;
+			position: relative;
+		font: 50em;
+		font-size: 60;
+		font-family: ar julian;
+		Letter-spacing: 10px;
+		color: #000;
+		text-transform
+		width: 150;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		}
